@@ -44,6 +44,12 @@ namespace tik4net.Objects.Ip.Hotspot
         /// </summary>
         [TikProperty("to-address", DefaultValue = "")]
         public string/*IP*/ ToAddress { get; set; }
+        
+        /// <summary>
+        /// disabled: 
+        /// </summary>
+        [TikProperty("disabled")]
+        public bool Disabled { get; set; }
 
         /// <summary>
         /// type
